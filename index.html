@@ -58,7 +58,7 @@ input{background:var(--bg);border:1px solid var(--line);color:var(--ink);border-
 @keyframes bpop{from{transform:scale(0) rotate(-12deg)}}
 @keyframes bfl{50%{filter:brightness(1.25)}}
 #bear svg{width:170px;height:auto;filter:drop-shadow(0 0 14px #7c5cff88)}
-#bear .arm{transform-origin:118px 140px;animation:wv .5s ease-in-out .9s infinite alternate}
+#bear .arm{transform-origin:122px 168px;animation:wv .5s ease-in-out .9s infinite alternate}
 @keyframes wv{from{transform:rotate(-18deg)}to{transform:rotate(22deg)}}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -99,13 +99,18 @@ input{background:var(--bg);border:1px solid var(--line);color:var(--ink);border-
 <div id="st"></div><div id="bd"></div>
 <div class="row" style="margin-top:14px"><button class="btn g" id="rs" style="flex:1">Rematch</button><button class="btn g" id="rm" style="flex:1">Reset score</button></div>
 </section>
-</div><div id="bear" aria-hidden="true"><div class="bub">Hi ya lolo 🤙😎</div>
-<svg viewBox="0 0 170 190"><ellipse cx="80" cy="172" rx="44" ry="30" fill="#c98a4b"/><ellipse cx="80" cy="176" rx="26" ry="20" fill="#f0c9a0"/>
-<circle cx="35" cy="40" r="18" fill="#b9783f"/><circle cx="35" cy="40" r="9" fill="#e8b383"/><circle cx="125" cy="40" r="18" fill="#b9783f"/><circle cx="125" cy="40" r="9" fill="#e8b383"/>
-<circle cx="80" cy="85" r="55" fill="#c98a4b"/><ellipse cx="80" cy="106" rx="24" ry="18" fill="#f0c9a0"/><ellipse cx="80" cy="97" rx="8" ry="6" fill="#2a1a12"/>
-<path d="M68 112Q80 125 92 112" stroke="#2a1a12" stroke-width="3" fill="none" stroke-linecap="round"/>
-<rect x="40" y="64" width="34" height="22" rx="7" fill="#0a0f25" stroke="#2fd4ff" stroke-width="2.5"/><rect x="86" y="64" width="34" height="22" rx="7" fill="#0a0f25" stroke="#b36bff" stroke-width="2.5"/><path d="M74 72H86" stroke="#2fd4ff" stroke-width="3"/><path d="M46 70l8 0M92 70l8 0" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
-<g class="arm"><path d="M118 140L148 100" stroke="#c98a4b" stroke-width="17" stroke-linecap="round"/><circle cx="150" cy="96" r="14" fill="#d99a5a"/></g></svg></div>
+</div><div id="bear" aria-hidden="true"><div class="bub">Hii genzooo 🤙</div>
+<svg viewBox="0 0 175 205"><ellipse cx="85" cy="190" rx="64" ry="42" fill="#15151c"/><path d="M62 152L85 182L108 152Z" fill="#f3ecdd"/><path d="M58 150Q85 172 112 150" stroke="#2b2b36" stroke-width="5" fill="none"/><path d="M85 182V205" stroke="#3a3a48" stroke-width="3"/>
+<rect x="72" y="125" width="26" height="30" rx="8" fill="#b97a55"/>
+<ellipse cx="44" cy="88" rx="7" ry="11" fill="#c08560"/><ellipse cx="126" cy="88" rx="7" ry="11" fill="#c08560"/>
+<ellipse cx="85" cy="86" rx="40" ry="46" fill="#c98f66"/>
+<g fill="#17120f"><circle cx="52" cy="62" r="11"/><circle cx="58" cy="48" r="13"/><circle cx="72" cy="40" r="14"/><circle cx="88" cy="37" r="14"/><circle cx="104" cy="41" r="14"/><circle cx="118" cy="50" r="13"/><circle cx="125" cy="64" r="10"/><circle cx="47" cy="76" r="7"/><circle cx="127" cy="77" r="6"/><path d="M46 72Q85 34 124 72Q85 56 46 72Z"/></g>
+<path d="M57 75Q68 68 79 74M91 74Q102 68 113 75" stroke="#17120f" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="68" cy="84" rx="8.5" ry="5" fill="#fff"/><ellipse cx="102" cy="84" rx="8.5" ry="5" fill="#fff"/><circle cx="70" cy="84.5" r="3.6" fill="#2a1a12"/><circle cx="104" cy="84.5" r="3.6" fill="#2a1a12"/>
+<path d="M58 81Q68 76 78 81M92 81Q102 76 112 81" stroke="#17120f" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M85 88Q81 99 87 100" stroke="#8a5a3c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M66 118Q85 111 104 118Q106 142 85 150Q64 142 66 118Z" fill="#17120f"/><path d="M64 109Q75 101 85 105Q95 101 106 109Q95 107 85 109Q75 107 64 109Z" fill="#17120f"/><path d="M76 117Q86 121 96 115" stroke="#c97a6a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<g class="arm"><path d="M122 168L146 126" stroke="#15151c" stroke-width="24" stroke-linecap="round"/><circle cx="150" cy="116" r="13" fill="#c98f66"/><path d="M146 108L139 84M156 108L164 86" stroke="#c98f66" stroke-width="8" stroke-linecap="round"/></g></svg></div>
 <div class="ov" id="ov"></div><div id="toast"></div>
 
 <script>
